@@ -15,7 +15,6 @@ namespace PattySlaps
         {
             KioskID = kioskID;
             Location = location;
-            Date = dateID;
         }
 
         // Method to display Kiosk information
@@ -28,114 +27,190 @@ namespace PattySlaps
     // Class for Order
     public class Order
     {
-        // Attributes for Order: (e.g., OrderId, CustomerName, OrderItems, TotalCost, etc.)
+        public int Order_ID { get; set; }
+        public string CustomerName { get; set; }
+        public List<string> Items { get; set; }
+        public string PaymentMethod { get; set; }
+        public string OrderType { get; set; }
+        public decimal OrderTotal { get; set; }
+        public string Status { get; set; }
     }
 
     // Class for Branch
     public class Branch
     {
-        // Attributes for Branch: (e.g., BranchId, Location, Manager, etc.)
+        public int Branch_ID { get; set; }
+        public string Address { get; set; }
+        public string PhoneNumber { get; set; }
     }
 
-    // Class for HRMS (Human Resource Management System)
+    // Class for HRMS
     public class HRMS
     {
-        // Attributes for HRMS: (e.g., EmployeesList, PayrollInfo, etc.)
+        public void DisplayPositions() {}
+        public void DisplayQuestionnaire() {}
+        public void DisplayAvailabilityForm() {}
+        public void DisplayPreferencesForm() {}
+        public void CheckEligibility() {}
+        public void StoreApplication() {}
+        public void UpdateApplicationStatus() {}
+        public void SendEmail() {}
     }
 
     // Class for Applicant
     public class Applicant
     {
-        // Attributes for Applicant: (e.g., ApplicantId, Name, ContactInfo, etc.)
+        public string PersonalInfo { get; set; }
+        public string EducationLevel { get; set; }
+        public string Experience { get; set; }
+        public string Availability { get; set; }
+        public string HourPreferences { get; set; }
     }
 
     // Class for Application
     public class Application
     {
-        // Attributes for Application: (e.g., ApplicationId, PositionAppliedFor, DateSubmitted, etc.)
+        public int ApplicationID { get; set; }
+        public int ApplicantID { get; set; }
+        public int PositionID { get; set; }
+        public string Status { get; set; }
+        public DateTime SubmissionDate { get; set; }
     }
 
     // Class for Position
     public class Position
     {
-        // Attributes for Position: (e.g., PositionId, Title, Description, etc.)
+        public int PositionID { get; set; }
+        public string Title { get; set; }
+        public string Requirements { get; set; }
+        public string Status { get; set; }
     }
 
     // Class for Hire Request
     public class HireRequest
     {
-        // Attributes for Hire Request: (e.g., RequestId, PositionRequested, DateRequested, etc.)
+        public int RequestID { get; set; }
+        public DateTime Date { get; set; }
+        public string Position { get; set; }
+        public string Status { get; set; }
+        public DateTime StartingDate { get; set; }
+        public string RequestingManager { get; set; }
     }
 
     // Class for Shift Schedule
     public class ShiftSchedule
     {
-        // Attributes for Shift Schedule: (e.g., ShiftId, EmployeeId, StartTime, EndTime, etc.)
+        public int ScheduleID { get; set; }
+        public DateTime Date { get; set; }
+        public string Shift { get; set; }
+        public string Employees { get; set; }
+        public string Role { get; set; }
+        public string Status { get; set; }
+        public string ConflictAlerts { get; set; }
+        public string BackupEmployees { get; set; }
     }
 
     // Class for Summary Report
     public class SummaryReport
     {
-        // Attributes for Summary Report: (e.g., ReportId, DateGenerated, TotalSales, etc.)
+        public int ReportID { get; set; }
+        public string TotalWaste { get; set; }
+        public string DiscrepancyDetails { get; set; }
     }
 
     // Class for Inventory Record
     public class InventoryRecord
     {
-        // Attributes for Inventory Record: (e.g., ItemId, QuantityAvailable, LastRestockedDate, etc.)
+        public int RecordID { get; set; }
+        public DateTime Date { get; set; }
+        public string Time { get; set; }
+        public int SoDQuantity { get; set; }
+        public int EoDQuantity { get; set; }
+        public bool DiscrepancyFlag { get; set; }
     }
 
     // Class for Waste Record
     public class WasteRecord
     {
-        // Attributes for Waste Record: (e.g., WasteId, ItemId, QuantityDisposed, DateDisposed, etc.)
+        public int RecordID { get; set; }
+        public string WasteCategory { get; set; }
+        public string Item { get; set; }
+        public int Quantity { get; set; }
     }
 
     // Class for Item
     public class Item
     {
-        // Attributes for Item: (e.g., ItemId, Name, Price, StockLevel, etc.)
+        public int ItemID { get; set; }
+        public string Name { get; set; }
+        public string CountType { get; set; } // Weight/Units
     }
 
     // Class for Reception QC Checklist
     public class ReceptionQCChecklist
     {
-        // Attributes for Reception QC Checklist: (e.g., ChecklistId, ItemsChecked, DateChecked, etc.)
+        public int QCID { get; set; }
+        public DateTime Date { get; set; }
+        public string ItemName { get; set; }
+        public string ItemDefect { get; set; }
+        public int Quantity { get; set; }
+        public string ItemPicture { get; set; }
     }
 
     // Class for End-of-Shift Report
     public class EndOfShiftReport
     {
-        // Attributes for End-of-Shift Report: (e.g., ReportId, EmployeeId, TotalSales, Issues, etc.)
+        public int ReportID { get; set; }
+        public DateTime Date { get; set; }
+        public string Shift { get; set; }
+        public string Status { get; set; }
+        public string SummaryOfOps { get; set; }
+        public string ChallengesEncountered { get; set; }
+        public string MaterialsOutOfStock { get; set; }
+        public string UnresolvedIssues { get; set; }
+        public bool Incident { get; set; }
+        public bool Warning { get; set; }
+        public string Notes { get; set; }
     }
 
-    // Employee Class (Base class)
+    // Employee Class
     public class Employee
     {
-        // Attributes for Employee: (e.g., EmployeeId, Name, Position, Department, etc.)
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string SIN { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Role { get; set; }
+        public string EmploymentStatus { get; set; }
+        public string EmploymentType { get; set; }
+        public decimal Wage { get; set; }
     }
 
-    // Team Member Class (Inherits Employee)
+    // Team Member Class
     public class TeamMember : Employee
     {
-        // Attributes specific to Team Member: (e.g., TaskAssigned, etc.)
+        public string Availability { get; set; }
     }
 
-    // Supervisor Class (Inherits Employee)
+    // Supervisor Class
     public class Supervisor : Employee
     {
-        // Attributes specific to Supervisor: (e.g., SupervisedTeam, etc.)
+        public int SupervisorID { get; set; }
     }
 
-    // Manager Class (Inherits Employee)
+    // Manager Class
     public class Manager : Employee
     {
-        // Attributes specific to Manager: (e.g., ManagedBranch, etc.)
+        public int ManagerID { get; set; }
+        public string Location { get; set; }
     }
 
-    // HR Employee Class (Inherits Employee)
+    // HR Employee Class
     public class HREmployee : Employee
     {
-        // Attributes specific to HR Employee: (e.g., HRSpecialty, etc.)
-    }
 }
+
