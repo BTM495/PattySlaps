@@ -15,6 +15,7 @@ namespace PattySlaps
         {
             KioskID = kioskID;
             Location = location;
+            Date = dateID;
         }
 
         // Method to display Kiosk information
