@@ -47,14 +47,10 @@ namespace PattySlaps
     // Class for HRMS
     public class HRMS
     {
-        public void DisplayPositions() {}
-        public void DisplayQuestionnaire() {}
-        public void DisplayAvailabilityForm() {}
-        public void DisplayPreferencesForm() {}
-        public void CheckEligibility() {}
-        public void StoreApplication() {}
-        public void UpdateApplicationStatus() {}
-        public void SendEmail() {}
+        public List<int> JobPostings { get; set; }
+        public List<int> Applications { get; set; }
+        public List<string> UserAccessLevels { get; set; }
+        public List<string> EmailTemplates { get; set; }
     }
 
     // Class for Applicant
@@ -103,10 +99,11 @@ namespace PattySlaps
         public int ScheduleID { get; set; }
         public DateTime Date { get; set; }
         public string Shift { get; set; }
-        public List<int> Employees { get; set; }
+        public string Employees { get; set; }
+        public string Role { get; set; }
         public string Status { get; set; }
         public string ConflictAlerts { get; set; }
-        public List<int> BackupEmployees { get; set; }
+        public string BackupEmployees { get; set; }
     }
 
     // Class for Summary Report
@@ -211,5 +208,7 @@ namespace PattySlaps
     // HR Employee Class
     public class HREmployee : Employee
     {
+        public List<int> ManagedPositions { get; set; }
+        public List<int> ProcessedApplications { get; set; }
     }
-
+}
