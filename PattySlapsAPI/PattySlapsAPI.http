@@ -1,0 +1,6 @@
+@PattySlapsAPI_HostAddress = http://localhost:5110
+
+GET {{PattySlapsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

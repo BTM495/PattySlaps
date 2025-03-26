@@ -1,0 +1,29 @@
+﻿<Window x:Class="PattySlapsApp.EditInventoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Inventory Record" Height="400" Width="400">
+
+    <Grid Margin="20">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <Label Content="Item:"/>
+            <TextBlock Name="ItemNameTextBlock" Width="200"/>
+
+            <Label Content="Start of Day Quantity:"/>
+            <TextBox Name="SoDQuantityTextBox" Width="200"/>
+
+            <Label Content="End of Day Quantity:"/>
+            <TextBox Name="EoDQuantityTextBox" Width="200"/>
+
+            <Label Content="Quantity Used:"/>
+            <TextBox Name="QuantityUsedTextBox" Width="200"/>
+
+            <Label Content="Waste Quantity:"/>
+            <TextBox Name="WasteQuantityTextBox" Width="200"/>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Button Content="Save Changes" Width="120" Click="SaveButton_Click"/>
+                <Button Content="Cancel" Width="100" Margin="10,0,0,0" Click="CancelButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

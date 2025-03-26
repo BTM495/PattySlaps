@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\employeemanagement.png" />
+    <None Remove="Resources\inventorymanagement.png" />
+    <None Remove="Resources\logo.jpg" />
+    <None Remove="Resources\recruitment management.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\employeemanagement.png" />
+    <Resource Include="Resources\inventorymanagement.png" />
+    <Resource Include="Resources\logo.jpg" />
+    <Resource Include="Resources\recruitment management.jpg" />
+  </ItemGroup>
+
+</Project>
