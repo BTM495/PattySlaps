@@ -65,3 +65,42 @@ C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\obj\Deb
 C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\obj\Debug\net8.0-windows\EditInventoryWindow.baml
 C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\obj\Debug\net8.0-windows\AddInventoryWindow.g.cs
 C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\obj\Debug\net8.0-windows\EditInventoryWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\PattySlapsApp.exe
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\PattySlapsApp.deps.json
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\PattySlapsApp.runtimeconfig.json
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\PattySlapsApp.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\PattySlapsApp.pdb
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\RestSharp.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.csproj.AssemblyReference.cache
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddEmployeeWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddInventoryWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditEmployeeWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditInventoryWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EmployeeManagementWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryManagementWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddEmployeeWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddInventoryWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditEmployeeWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditInventoryWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EmployeeManagementWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryManagementWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp_MarkupCompile.cache
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.g.resources
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.AssemblyInfoInputs.cache
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.AssemblyInfo.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.csproj.CoreCompileInputs.cache
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.sourcelink.json
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySla.0E748084.Up2Date
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\refint\PattySlapsApp.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.pdb
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\PattySlapsApp.genruntimeconfig.cache
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\ref\PattySlapsApp.dll
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryRecordManagementWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryRecordManagementWindow.g.cs

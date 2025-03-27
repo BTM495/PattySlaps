@@ -43,11 +43,21 @@ namespace PattySlapsApp
                 return;
             }
 
+            var selectedItemId = (int)ItemComboBox.SelectedValue;
+            var existingRecords = await _apiService.GetInventoryRecordsAsync();
+            var existingRecordForToday = existingRecords.FirstOrDefault(record => record.ItemID == selectedItemId && record.Date.Date == DateTime.Now.Date);
+
+            if (existingRecordForToday != null)
+            {
+                MessageBox.Show("An inventory record for this item has already been added today. Please edit the existing record instead.");
+                return;
+            }
+
             var newInventoryRecord = new InventoryRecord
             {
-                ItemID = (int)ItemComboBox.SelectedValue,
+                ItemID = selectedItemId,
                 Date = DateTime.Now,
-                Time =  (DateTime.Now.Hour).ToString(),
+                Time = DateTime.Now.ToString("HH:mm"),
                 SoDQuantity = int.Parse(SoDQuantityTextBox.Text),
                 EoDQuantity = int.Parse(EoDQuantityTextBox.Text),
                 QuantityUsed = int.Parse(QuantityUsedTextBox.Text),

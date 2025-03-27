@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\obj\Debug\net8.0-windows\
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\
 PattySlapsApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\aboug\Documents\GitHub\New folder\PattySlapsAmine\PattySlapsApp\App.xaml
-7474406161
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\App.xaml
+8-1047886685
 
-16-1207819043
+171691091396
 201-1114483212
-AddEmployeeWindow.xaml;AddInventoryWindow.xaml;EditEmployeeWindow.xaml;EditInventoryWindow.xaml;EmployeeManagementWindow.xaml;InventoryManagementWindow.xaml;MainWindow.xaml;
+AddEmployeeWindow.xaml;AddInventoryWindow.xaml;EditEmployeeWindow.xaml;EditInventoryWindow.xaml;EmployeeManagementWindow.xaml;InventoryManagementWindow.xaml;InventoryRecordManagementWindow.xaml;MainWindow.xaml;
 
 False
 

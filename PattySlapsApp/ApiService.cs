@@ -61,7 +61,7 @@ namespace PattySlapsApp
 
         public async Task<HttpResponseMessage> UpdateInventoryRecordAsync(int recordId, InventoryRecord record)
         {
-            return await _httpClient.PutAsJsonAsync($"api/InventoryRecord/{recordId}", record);
+            return await _httpClient.PutAsJsonAsync($"Inventory/{recordId}", record);
         }
 
         public async Task<HttpResponseMessage> DeleteInventoryRecordAsync(int id)

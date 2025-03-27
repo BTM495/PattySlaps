@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PattySlapsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60575a2b6dc12939600b035d88c8f09a53cece34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e0bfd6a6a4e0631555db36650e9f17f8cd8fb42")]
 [assembly: System.Reflection.AssemblyProductAttribute("PattySlapsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PattySlapsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

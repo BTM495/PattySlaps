@@ -2583,11 +2583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsAPI\\PattySlapsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\PattySlapsAPI.csproj",
       "projectName": "PattySlapsAPI",
-      "projectPath": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsAPI\\PattySlapsAPI.csproj",
+      "projectPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\PattySlapsAPI.csproj",
       "packagesPath": "C:\\Users\\aboug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsAPI\\obj\\",
+      "outputPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

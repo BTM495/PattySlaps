@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KCdVdv+ghT4=",
+  "dgSpecHash": "rN5GzTD4tpQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsAPI\\PattySlapsAPI.csproj",
+  "projectFilePath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\PattySlapsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aboug\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aboug\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

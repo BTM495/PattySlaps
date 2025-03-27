@@ -92,7 +92,7 @@ namespace PattySlapsApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PattySlapsApp;V1.0.0.0;component/editinventorywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PattySlapsApp;component/editinventorywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\EditInventoryWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

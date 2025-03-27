@@ -25,6 +25,8 @@ namespace PattySlapsApp
             SoDQuantityTextBox.Text = inventoryRecord.SoDQuantity.ToString();
             EoDQuantityTextBox.Text = inventoryRecord.EoDQuantity.ToString();
             QuantityUsedTextBox.Text = inventoryRecord.QuantityUsed.ToString();
+            WasteQuantityTextBox.Text = CalculateTotalWaste(inventoryRecord.WasteRecords).ToString();
+            WasteQuantityTextBox.IsReadOnly = true; // Make the waste textbox read-only
         }
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -34,11 +36,6 @@ namespace PattySlapsApp
                 _inventoryRecord.SoDQuantity = int.Parse(SoDQuantityTextBox.Text);
                 _inventoryRecord.EoDQuantity = int.Parse(EoDQuantityTextBox.Text);
                 _inventoryRecord.QuantityUsed = int.Parse(QuantityUsedTextBox.Text);
-
-                if (_inventoryRecord.WasteRecords.Count > 0)
-                    _inventoryRecord.WasteRecords[0].Quantity = int.Parse(WasteQuantityTextBox.Text);
-                else
-                    _inventoryRecord.WasteRecords.Add(new WasteRecord { Quantity = int.Parse(WasteQuantityTextBox.Text) });
 
                 HttpResponseMessage response = await _apiService.UpdateInventoryRecordAsync(_inventoryRecord.RecordID, _inventoryRecord);
                 if (response.IsSuccessStatusCode)
@@ -65,6 +62,16 @@ namespace PattySlapsApp
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private int CalculateTotalWaste(List<WasteRecord> wasteRecords)
+        {
+            int totalWaste = 0;
+            foreach (var wasteRecord in wasteRecords)
+            {
+                totalWaste += wasteRecord.Quantity;
+            }
+            return totalWaste;
         }
     }
 }

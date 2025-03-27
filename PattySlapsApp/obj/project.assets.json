@@ -159,11 +159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsApp\\PattySlapsApp.csproj",
+      "projectUniqueName": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\PattySlapsApp.csproj",
       "projectName": "PattySlapsApp",
-      "projectPath": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsApp\\PattySlapsApp.csproj",
+      "projectPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\PattySlapsApp.csproj",
       "packagesPath": "C:\\Users\\aboug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aboug\\Documents\\GitHub\\New folder\\PattySlapsAmine\\PattySlapsApp\\obj\\",
+      "outputPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
