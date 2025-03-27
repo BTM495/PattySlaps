@@ -104,3 +104,5 @@ C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-window
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\ref\PattySlapsApp.dll
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryRecordManagementWindow.baml
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\InventoryRecordManagementWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\WasteManagementWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\WasteManagementWindow.g.cs

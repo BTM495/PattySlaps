@@ -285,6 +285,11 @@ namespace PattySlaps
 
         public string WasteType { get; set; }
         public int Quantity { get; set; }
+        public DateTime Date { get; set; }
+        // Foreign key to associate with an Item
+        [ForeignKey("Item")]
+        public int? ItemID { get; set; }
+        public Item? Item { get; set; }
     }
 
     // Reception QC Checklist class

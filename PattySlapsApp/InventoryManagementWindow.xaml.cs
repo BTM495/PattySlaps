@@ -32,7 +32,8 @@ namespace PattySlapsApp
 
         private void WasteManagement_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: Implement functionality for Waste Management button click
+            WasteManagementWindow wasteManagementWindow = new WasteManagementWindow();
+            wasteManagementWindow.Show();
         }
 
         private void ReportsAndAnalytics_Click(object sender, RoutedEventArgs e)

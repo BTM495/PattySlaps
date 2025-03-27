@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\controllers\\wastecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:controllers\\wastecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4CD5F2F-5986-4071-B873-24FC23F69841}|PattySlapsAPI.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,7 +56,7 @@
               "RelativeDocumentMoniker": "Models\\Models.cs",
               "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Models\\Models.cs",
               "RelativeToolTip": "Models\\Models.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAowA4BAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAiwCMBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T12:42:25.594Z",
               "IsPinned": true,
@@ -60,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "WasteController.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Controllers\\WasteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WasteController.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Controllers\\WasteController.cs",
+              "RelativeToolTip": "Controllers\\WasteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:15:12.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
@@ -68,11 +85,12 @@
               "RelativeToolTip": "Controllers\\InventoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:03:53.279Z"
+              "WhenOpened": "2025-03-14T06:03:53.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -84,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "dbContextRepo.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Data\\dbContextRepo.cs",
               "RelativeDocumentMoniker": "Data\\dbContextRepo.cs",
@@ -96,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
@@ -108,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -120,19 +138,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:40:27.979Z"
+              "WhenOpened": "2025-03-12T12:40:27.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PattySlapsAPI.csproj",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsAPI\\PattySlapsAPI.csproj",
               "RelativeDocumentMoniker": "PattySlapsAPI.csproj",

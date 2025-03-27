@@ -38,14 +38,39 @@ namespace PattySlapsApp
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
-
-    public class WasteRecord
+    public class WasteRecord : INotifyPropertyChanged
     {
         public int WasteID { get; set; }
-        public int InventoryRecordID { get; set; } // Links to InventoryRecord
-        public string WasteType { get; set; } // Example: "Expired", "Damaged"
-        public int Quantity { get; set; } // Amount of waste recorded
+        public int InventoryRecordID { get; set; }
+        public string WasteType { get; set; }
+        public int Quantity { get; set; }
+        public DateTime Date { get; set; }
+        [ForeignKey("Item")]
+        public int ItemID { get; set; }  // Foreign key reference to Item
+
+        private Item _item;
+        public Item Item
+        {
+            get => _item;
+            set
+            {
+                _item = value;
+                OnPropertyChanged(nameof(Item));
+                OnPropertyChanged(nameof(ItemName));
+            }
+        }
+
+        public string ItemName => Item?.Name;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
     }
+
     public class Item
     {
         public int ItemID { get; set; }

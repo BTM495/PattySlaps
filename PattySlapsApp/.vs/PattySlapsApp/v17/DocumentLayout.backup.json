@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventoryrecordmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventoryrecordmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventoryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventoryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\wastemanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:wastemanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventoryrecordmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventoryrecordmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\wastemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:wastemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventorymanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventorymanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\inventoryrecordmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:inventoryrecordmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\addinventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\editinventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:editinventorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\pattyslapsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908D5510-2865-43A4-B518-4232E752070F}|PattySlapsApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +66,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryRecordManagementWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecordManagementWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InventoryRecordManagementWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecordManagementWindow.xaml.cs",
+              "RelativeToolTip": "InventoryRecordManagementWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:08:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WasteManagementWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\WasteManagementWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WasteManagementWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\WasteManagementWindow.xaml.cs",
+              "RelativeToolTip": "WasteManagementWindow.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowCEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:00:51.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryRecord.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecord.cs",
+              "RelativeDocumentMoniker": "InventoryRecord.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecord.cs",
+              "RelativeToolTip": "InventoryRecord.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T07:12:33.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "WasteManagementWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\WasteManagementWindow.xaml",
+              "RelativeDocumentMoniker": "WasteManagementWindow.xaml",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\WasteManagementWindow.xaml",
+              "RelativeToolTip": "WasteManagementWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-27T21:58:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\ApiService.cs",
+              "RelativeDocumentMoniker": "ApiService.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\ApiService.cs",
+              "RelativeToolTip": "ApiService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwGEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:36:56.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -75,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "InventoryManagementWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryManagementWindow.xaml.cs",
               "RelativeDocumentMoniker": "InventoryManagementWindow.xaml.cs",
               "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryManagementWindow.xaml.cs",
               "RelativeToolTip": "InventoryManagementWindow.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAASwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T04:42:16.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "InventoryManagementWindow.xaml",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryManagementWindow.xaml",
               "RelativeDocumentMoniker": "InventoryManagementWindow.xaml",
@@ -100,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "InventoryRecordManagementWindow.xaml",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecordManagementWindow.xaml",
               "RelativeDocumentMoniker": "InventoryRecordManagementWindow.xaml",
@@ -112,45 +184,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-27T04:36:04.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T04:36:04.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventoryRecord.cs",
-              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecord.cs",
-              "RelativeDocumentMoniker": "InventoryRecord.cs",
-              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\InventoryRecord.cs",
-              "RelativeToolTip": "InventoryRecord.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAywDYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:12:33.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\ApiService.cs",
-              "RelativeDocumentMoniker": "ApiService.cs",
-              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\ApiService.cs",
-              "RelativeToolTip": "ApiService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwDUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:36:56.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "EditInventoryWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\EditInventoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "EditInventoryWindow.xaml.cs",
@@ -158,12 +203,11 @@
               "RelativeToolTip": "EditInventoryWindow.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwCUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:33:16.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:33:16.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AddInventoryWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\AddInventoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "AddInventoryWindow.xaml.cs",
@@ -171,24 +215,22 @@
               "RelativeToolTip": "AddInventoryWindow.xaml.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAwDsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:34:25.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:34:25.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AddInventoryWindow.xaml",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\AddInventoryWindow.xaml",
               "RelativeDocumentMoniker": "AddInventoryWindow.xaml",
               "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\AddInventoryWindow.xaml",
               "RelativeToolTip": "AddInventoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T07:34:08.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:34:08.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "EditInventoryWindow.xaml",
               "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\EditInventoryWindow.xaml",
               "RelativeDocumentMoniker": "EditInventoryWindow.xaml",
@@ -196,18 +238,6 @@
               "RelativeToolTip": "EditInventoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-14T07:27:00.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\PattySlapsApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T13:55:05.367Z"
             }
           ]
         }

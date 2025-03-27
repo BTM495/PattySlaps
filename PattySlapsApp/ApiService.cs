@@ -84,5 +84,35 @@ namespace PattySlapsApp
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<Item>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         }
+        public async Task<List<WasteRecord>> GetWasteRecordsAsync()
+        {
+            var response = await _httpClient.GetAsync("Waste");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<WasteRecord>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<WasteRecord> GetWasteRecordByIdAsync(int wasteRecordId)
+        {
+            var response = await _httpClient.GetAsync($"Waste/{wasteRecordId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<WasteRecord>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddWasteRecordAsync(WasteRecord record)
+        {
+            return await _httpClient.PostAsJsonAsync("Waste", record);
+        }
+
+        public async Task<HttpResponseMessage> UpdateWasteRecordAsync(int recordId, WasteRecord record)
+        {
+            return await _httpClient.PutAsJsonAsync($"Waste/{recordId}", record);
+        }
+
+        public async Task<HttpResponseMessage> DeleteWasteRecordAsync(int id)
+        {
+            return await _httpClient.DeleteAsync($"Waste/{id}");
+        }
     }
 }

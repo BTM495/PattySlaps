@@ -19,6 +19,7 @@ internal class Program
                        .AllowAnyHeader();
             });
         });
+
         // Add services to the container.
         builder.Services.AddControllers();
 
@@ -31,11 +32,12 @@ internal class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        // Register repositories
         Type serviceType = typeof(Repository<>);
 
         builder.Services.AddScoped<Repository<InventoryRecord>>();
         builder.Services.AddScoped<Repository<Item>>();
-
+        builder.Services.AddScoped<Repository<WasteRecord>>(); // Register Repository<WasteRecord>
 
         builder.Services.AddScoped(serviceType);
 
@@ -59,7 +61,6 @@ internal class Program
         app.UseHttpsRedirection();
         app.UseAuthorization();
         app.MapControllers();
-        app.UseHttpsRedirection();
 
         app.Run();
     }

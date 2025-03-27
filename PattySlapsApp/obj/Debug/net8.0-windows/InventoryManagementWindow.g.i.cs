@@ -52,7 +52,7 @@ namespace PattySlapsApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PattySlapsApp;component/inventorymanagementwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PattySlapsApp;V1.0.0.0;component/inventorymanagementwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InventoryManagementWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
