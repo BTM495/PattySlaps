@@ -53,6 +53,13 @@ namespace PattySlapsApp
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<List<InventoryRecord>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         }
+        public async Task<InventoryRecord> GetInventoryRecordByIdAsync(int inventoryRecordID)
+        {
+            var response = await _httpClient.GetAsync($"Inventory/{inventoryRecordID}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<InventoryRecord>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
 
         public async Task<HttpResponseMessage> AddInventoryRecordAsync(InventoryRecord record)
         {
@@ -116,13 +123,6 @@ namespace PattySlapsApp
             return await _httpClient.DeleteAsync($"Waste/{id}");
         }
 
-        // New method to get InventoryRecord by ID
-        public async Task<InventoryRecord> GetInventoryRecordByIdAsync(int recordId)
-        {
-            var response = await _httpClient.GetAsync($"Inventory/{recordId}");
-            response.EnsureSuccessStatusCode();
-            var json = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<InventoryRecord>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-        }
+
     }
 }

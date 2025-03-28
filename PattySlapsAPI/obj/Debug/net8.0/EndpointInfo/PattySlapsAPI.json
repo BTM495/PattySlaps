@@ -1655,9 +1655,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "inventoryRecord": {
-            "$ref": "#/components/schemas/InventoryRecord"
-          },
           "wasteType": {
             "type": "string",
             "nullable": true

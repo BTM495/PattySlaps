@@ -281,7 +281,7 @@ namespace PattySlaps
 
         [ForeignKey("InventoryRecord")]
         public int InventoryRecordID { get; set; }
-        public InventoryRecord InventoryRecord { get; set; }
+        //public InventoryRecord InventoryRecord { get; set; }
 
         public string WasteType { get; set; }
         public int Quantity { get; set; }
@@ -298,10 +298,13 @@ namespace PattySlaps
         [Key]
         public int QCID { get; set; }
         public DateTime Date { get; set; }
+        [ForeignKey("Item")]
+        public int? ItemID { get; set; }
         public string ItemName { get; set; }
         public string ItemDefect { get; set; }
         public int Quantity { get; set; }
         public string ItemPicture { get; set; }
+        public bool isComplete { get; set; }
     }
 
     // End-of-Shift Report class

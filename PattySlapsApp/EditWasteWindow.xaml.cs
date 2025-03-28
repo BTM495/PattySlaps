@@ -22,10 +22,10 @@ namespace PattySlapsApp
             QuantityTextBox.Text = wasteRecord.Quantity.ToString();
 
             // Fetch and assign InventoryRecord
-            LoadInventoryRecordAsync(wasteRecord.InventoryRecordID);
+            //LoadInventoryRecordAsync(wasteRecord.InventoryRecordID);
         }
 
-        private async void LoadInventoryRecordAsync(int inventoryRecordID)
+        /*private async void LoadInventoryRecordAsync(int inventoryRecordID)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace PattySlapsApp
             {
                 MessageBox.Show($"Failed to load InventoryRecord: {ex.Message}");
             }
-        }
+        }*/
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
@@ -45,7 +45,7 @@ namespace PattySlapsApp
                 _wasteRecord.Quantity = int.Parse(QuantityTextBox.Text);
                 _wasteRecord.Date = DateTime.Now; // Assuming current date for the waste record
                 _wasteRecord.ItemID = _wasteRecord.Item.ItemID;
-                _wasteRecord.InventoryRecordID = _wasteRecord.InventoryRecord.RecordID;
+                //_wasteRecord.InventoryRecordID = _wasteRecord.InventoryRecord.RecordID;
 
                 HttpResponseMessage response = await _apiService.UpdateWasteRecordAsync(_wasteRecord.WasteID, _wasteRecord);
                 if (response.IsSuccessStatusCode)

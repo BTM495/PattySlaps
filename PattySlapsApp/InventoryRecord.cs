@@ -62,7 +62,7 @@ namespace PattySlapsApp
 
         public string ItemName => Item?.Name;
 
-        private InventoryRecord _inventoryRecord;
+        /*private InventoryRecord _inventoryRecord;
         public InventoryRecord InventoryRecord
         {
             get => _inventoryRecord;
@@ -71,7 +71,7 @@ namespace PattySlapsApp
                 _inventoryRecord = value;
                 OnPropertyChanged(nameof(InventoryRecord));
             }
-        }
+        }*/
 
         public event PropertyChangedEventHandler PropertyChanged;
 

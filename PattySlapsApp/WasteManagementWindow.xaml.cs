@@ -52,9 +52,9 @@ namespace PattySlapsApp
 
         private void AddWaste_Click(object sender, RoutedEventArgs e)
         {
-            /*var addWindow = new AddWasteWindow(_apiService);
+            var addWindow = new AddWasteWindow(_apiService);
             addWindow.ShowDialog();
-            LoadWasteRecords(); // Refresh waste records after adding*/
+            LoadWasteRecords(); // Refresh waste records after adding
         }
 
         private async void EditWaste_Click(object sender, RoutedEventArgs e)
