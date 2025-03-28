@@ -14,6 +14,9 @@
     <Compile Update="EditInventoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditWasteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="InventoryManagementWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

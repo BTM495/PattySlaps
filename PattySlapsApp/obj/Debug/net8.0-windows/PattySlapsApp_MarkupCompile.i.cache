@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\App.xaml
-9-1607618937
+10-1626012603
 
-18264571159
+19231172188
 201-1114483212
-AddEmployeeWindow.xaml;AddInventoryWindow.xaml;EditEmployeeWindow.xaml;EditInventoryWindow.xaml;EmployeeManagementWindow.xaml;InventoryManagementWindow.xaml;InventoryRecordManagementWindow.xaml;MainWindow.xaml;WasteManagementWindow.xaml;
+AddEmployeeWindow.xaml;AddInventoryWindow.xaml;EditEmployeeWindow.xaml;EditInventoryWindow.xaml;EditWasteWindow.xaml;EmployeeManagementWindow.xaml;InventoryManagementWindow.xaml;InventoryRecordManagementWindow.xaml;MainWindow.xaml;WasteManagementWindow.xaml;
 
 False
 

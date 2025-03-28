@@ -26,6 +26,7 @@
                         <DataGridTextColumn Header="Item Name" Binding="{Binding ItemName}" Width="150"/>
                         <DataGridTextColumn Header="Quantity Wasted" Binding="{Binding Quantity}" Width="150"/>
                         <DataGridTextColumn Header="Reason" Binding="{Binding WasteType}" Width="200"/>
+                        <DataGridTextColumn Header="Inventory Record ID" Binding="{Binding InventoryRecordID}" Width="150"/>
 
                         <!-- Actions -->
                         <DataGridTemplateColumn Header="Actions" Width="150">

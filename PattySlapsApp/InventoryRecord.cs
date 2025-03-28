@@ -62,13 +62,23 @@ namespace PattySlapsApp
 
         public string ItemName => Item?.Name;
 
+        private InventoryRecord _inventoryRecord;
+        public InventoryRecord InventoryRecord
+        {
+            get => _inventoryRecord;
+            set
+            {
+                _inventoryRecord = value;
+                OnPropertyChanged(nameof(InventoryRecord));
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
     }
 
     public class Item
