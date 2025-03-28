@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\hremployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\hirerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\hirerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\endofshiftreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\endofshiftreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\inventoryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\inventoryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\classes\\shiftschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:classes\\shiftschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\milestone 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:milestone 2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|c:\\users\\aboug\\documents\\github\\pattyslaps\\milestone 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DAB6552-B7FC-4875-A5BF-2F747A4C8724}|Milestone 2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Position.cs",
+              "RelativeDocumentMoniker": "Classes\\Position.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Position.cs",
+              "RelativeToolTip": "Classes\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:12:21.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Application.cs",
+              "RelativeDocumentMoniker": "Classes\\Application.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Application.cs",
+              "RelativeToolTip": "Classes\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:11:56.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Applicant.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Applicant.cs",
+              "RelativeDocumentMoniker": "Classes\\Applicant.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Applicant.cs",
+              "RelativeToolTip": "Classes\\Applicant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:09:55.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Manager.cs",
+              "RelativeDocumentMoniker": "Classes\\Manager.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Manager.cs",
+              "RelativeToolTip": "Classes\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:09:45.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HREmployee.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\HREmployee.cs",
+              "RelativeDocumentMoniker": "Classes\\HREmployee.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\HREmployee.cs",
+              "RelativeToolTip": "Classes\\HREmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:09:32.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HireRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\HireRequest.cs",
+              "RelativeDocumentMoniker": "Classes\\HireRequest.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\HireRequest.cs",
+              "RelativeToolTip": "Classes\\HireRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:09:13.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Employee.cs",
+              "RelativeDocumentMoniker": "Classes\\Employee.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\Employee.cs",
+              "RelativeToolTip": "Classes\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:04:24.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EndOfShiftReport.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\EndOfShiftReport.cs",
+              "RelativeDocumentMoniker": "Classes\\EndOfShiftReport.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\EndOfShiftReport.cs",
+              "RelativeToolTip": "Classes\\EndOfShiftReport.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvzEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:04:03.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryRecord.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\InventoryRecord.cs",
+              "RelativeDocumentMoniker": "Classes\\InventoryRecord.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\InventoryRecord.cs",
+              "RelativeToolTip": "Classes\\InventoryRecord.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:02:47.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShiftSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\ShiftSchedule.cs",
+              "RelativeDocumentMoniker": "Classes\\ShiftSchedule.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Classes\\ShiftSchedule.cs",
+              "RelativeToolTip": "Classes\\ShiftSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:53:43.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Milestone 2",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Milestone 2.csproj",
+              "RelativeDocumentMoniker": "Milestone 2.csproj",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\Milestone 2.csproj",
+              "RelativeToolTip": "Milestone 2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T20:24:57.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aboug\\Documents\\GitHub\\PattySlaps\\Milestone 2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:59:21.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
