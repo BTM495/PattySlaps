@@ -44,15 +44,6 @@ namespace PattySlaps.Data
             modelBuilder.Entity<ShiftScheduleEmployee>()
                 .HasKey(se => new { se.ScheduleID, se.EmployeeID });
 
-            modelBuilder.Entity<ShiftScheduleEmployee>()
-                .HasOne(se => se.ShiftSchedule)
-                .WithMany(s => s.ShiftScheduleEmployees)
-                .HasForeignKey(se => se.ScheduleID);
-
-            modelBuilder.Entity<ShiftScheduleEmployee>()
-                .HasOne(se => se.Employee)
-                .WithMany(e => e.ShiftScheduleEmployees)
-                .HasForeignKey(se => se.EmployeeID);
             modelBuilder.Entity<HRMS>().HasNoKey();  
         }
 

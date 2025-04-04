@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="AddEmployeetoScheduleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddEmployeeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -9,6 +12,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddInventoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddShiftWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddWasteWindow.xaml.cs">
@@ -32,6 +38,12 @@
     <Compile Update="EditInventoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditQCChecklistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditShiftWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditWasteWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -45,6 +57,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="QCChecklistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShiftScheduleWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WasteManagementWindow.xaml.cs">

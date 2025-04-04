@@ -1,0 +1,35 @@
+﻿<Window x:Class="PattySlapsApp.EditQCChecklistWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit QC Checklist" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel Margin="10">
+            <TextBlock Text="QC ID:" />
+            <TextBox Name="QCIDTextBox" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Date:" />
+            <TextBox Name="DateTextBox" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Item ID:" />
+            <TextBox Name="ItemIDTextBox" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Item Name:" />
+            <TextBox Name="ItemNameTextBox" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Item Defect:" />
+            <TextBox Name="ItemDefectTextBox" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Quantity:" />
+            <TextBox Name="QuantityTextBox" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <TextBlock Text="Item Picture:" />
+            <TextBox Name="ItemPictureTextBox" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,0,0,0">
+                <Button Name="SaveButton" Content="Save" Width="75" Margin="5" Click="SaveButton_Click"/>
+                <Button Name="CancelButton" Content="Cancel" Width="75" Margin="5" Click="CancelButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
+

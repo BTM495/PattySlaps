@@ -57,7 +57,7 @@ namespace PattySlaps.Controllers
             checklist.ItemDefect = updatedChecklist.ItemDefect;
             checklist.Quantity = updatedChecklist.Quantity;
             checklist.ItemPicture = updatedChecklist.ItemPicture;
-            checklist.isComplete = updatedChecklist.isComplete;
+            checklist.Completed = updatedChecklist.Completed;
 
             _qcChecklistRepository.Update(checklist);
             return NoContent();

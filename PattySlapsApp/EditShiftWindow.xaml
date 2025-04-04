@@ -1,0 +1,34 @@
+﻿<Window x:Class="PattySlapsApp.EditShiftWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Shift" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Content="Shift Date:" />
+            <DatePicker x:Name="DatePicker" />
+
+            <Label Content="Shift:" />
+            <ComboBox x:Name="ShiftComboBox">
+                <ComboBoxItem Content="Morning" />
+                <ComboBoxItem Content="Afternoon" />
+            </ComboBox>
+
+            <Label Content="Employees:" />
+            <DataGrid x:Name="EmployeesDataGrid" AutoGenerateColumns="False" Height="200">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeID}" />
+                    <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" />
+                    <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" />
+                    <DataGridTextColumn Header="Role" Binding="{Binding Role}" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Content="Add Employee to Shift" Click="AddEmployeeButton_Click" Margin="0,10,0,10" HorizontalAlignment="Center" />
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                <Button Content="Save" Click="SaveButton_Click" Margin="0,0,10,0" />
+                <Button Content="Cancel" Click="CancelButton_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

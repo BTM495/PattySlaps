@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PattySlaps.Data;
-using System.Collections.Generic;
+using PattySlaps;
 
 namespace PattySlaps.Controllers
 {
@@ -15,12 +15,14 @@ namespace PattySlaps.Controllers
             _shiftScheduleRepository = shiftScheduleRepository;
         }
 
+        // ✅ Get all shift schedules
         [HttpGet]
         public ActionResult<IEnumerable<ShiftSchedule>> GetAll()
         {
             return Ok(_shiftScheduleRepository.GetAll());
         }
 
+        // ✅ Get a single shift schedule by ID
         [HttpGet("{id}")]
         public ActionResult<ShiftSchedule> GetById(int id)
         {
@@ -29,6 +31,7 @@ namespace PattySlaps.Controllers
             return Ok(shiftSchedule);
         }
 
+        // ✅ Add a new shift schedule
         [HttpPost]
         public ActionResult<ShiftSchedule> Create(ShiftSchedule shiftSchedule)
         {
@@ -36,21 +39,23 @@ namespace PattySlaps.Controllers
             return CreatedAtAction(nameof(GetById), new { id = shiftSchedule.ScheduleID }, shiftSchedule);
         }
 
+        // ✅ Update an existing shift schedule
         [HttpPut("{id}")]
         public IActionResult Update(int id, ShiftSchedule updatedShiftSchedule)
         {
             var shiftSchedule = _shiftScheduleRepository.GetById(id);
             if (shiftSchedule == null) return NotFound();
 
+            // Update fields
             shiftSchedule.Date = updatedShiftSchedule.Date;
             shiftSchedule.Shift = updatedShiftSchedule.Shift;
             shiftSchedule.Status = updatedShiftSchedule.Status;
-            shiftSchedule.ConflictAlerts = updatedShiftSchedule.ConflictAlerts;
-            _shiftScheduleRepository.Update(shiftSchedule);
 
+            _shiftScheduleRepository.Update(shiftSchedule);
             return NoContent();
         }
 
+        // ✅ Delete a shift schedule
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

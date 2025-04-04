@@ -171,11 +171,9 @@ namespace PattySlaps
 
         [ForeignKey("ShiftSchedule")]
         public int ScheduleID { get; set; }
-        public ShiftSchedule ShiftSchedule { get; set; }
 
         [ForeignKey("Employee")]
         public int EmployeeID { get; set; }
-        public Employee Employee { get; set; }
     }
 
     // Shift Schedule class (One shift can have multiple employees)
@@ -186,10 +184,6 @@ namespace PattySlaps
         public DateTime Date { get; set; }
         public string Shift { get; set; }
         public string Status { get; set; }
-        public string ConflictAlerts { get; set; }
-
-        // Many-to-Many Relationship
-        public List<ShiftScheduleEmployee> ShiftScheduleEmployees { get; set; } = new List<ShiftScheduleEmployee>();
     }
 
 
@@ -304,7 +298,7 @@ namespace PattySlaps
         public string ItemDefect { get; set; }
         public int Quantity { get; set; }
         public string ItemPicture { get; set; }
-        public bool isComplete { get; set; }
+        public bool Completed { get; set; }
     }
 
     // End-of-Shift Report class
@@ -364,7 +358,6 @@ namespace PattySlaps
     public class Supervisor : Employee
     {
         public int SupervisorID { get; set; }
-        public List<ShiftSchedule> ShiftSchedules { get; set; } = new List<ShiftSchedule>(); // One-to-Many
     }
 
     // HR Employee class inheriting Employee

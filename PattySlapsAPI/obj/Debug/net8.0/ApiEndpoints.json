@@ -763,6 +763,115 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PattySlaps.Controllers.QCChecklistController",
+    "Method": "GetAll",
+    "RelativePath": "api/QCChecklist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PattySlaps.ReceptionQCChecklist, PattySlapsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.QCChecklistController",
+    "Method": "Create",
+    "RelativePath": "api/QCChecklist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qcChecklist",
+        "Type": "PattySlaps.ReceptionQCChecklist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PattySlaps.ReceptionQCChecklist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.QCChecklistController",
+    "Method": "GetById",
+    "RelativePath": "api/QCChecklist/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PattySlaps.ReceptionQCChecklist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.QCChecklistController",
+    "Method": "Update",
+    "RelativePath": "api/QCChecklist/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedQCChecklist",
+        "Type": "PattySlaps.ReceptionQCChecklist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.QCChecklistController",
+    "Method": "Delete",
+    "RelativePath": "api/QCChecklist/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PattySlaps.Controllers.ReceptionController",
     "Method": "GetAll",
     "RelativePath": "api/Reception",
@@ -968,6 +1077,115 @@
     "ContainingType": "PattySlaps.Controllers.ShiftScheduleController",
     "Method": "Delete",
     "RelativePath": "api/ShiftSchedule/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.ShiftScheduleEmployeeController",
+    "Method": "GetAll",
+    "RelativePath": "api/ShiftScheduleEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PattySlaps.ShiftScheduleEmployee, PattySlapsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.ShiftScheduleEmployeeController",
+    "Method": "Create",
+    "RelativePath": "api/ShiftScheduleEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftScheduleEmployee",
+        "Type": "PattySlaps.ShiftScheduleEmployee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PattySlaps.ShiftScheduleEmployee",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.ShiftScheduleEmployeeController",
+    "Method": "GetById",
+    "RelativePath": "api/ShiftScheduleEmployee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PattySlaps.ShiftScheduleEmployee",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.ShiftScheduleEmployeeController",
+    "Method": "Update",
+    "RelativePath": "api/ShiftScheduleEmployee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedShiftScheduleEmployee",
+        "Type": "PattySlaps.ShiftScheduleEmployee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PattySlaps.Controllers.ShiftScheduleEmployeeController",
+    "Method": "Delete",
+    "RelativePath": "api/ShiftScheduleEmployee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

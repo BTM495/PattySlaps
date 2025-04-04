@@ -1,0 +1,57 @@
+﻿<Window x:Class="PattySlapsApp.ShiftScheduleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shift Schedule Management" SizeToContent="WidthAndHeight" Background="#f0f0f0">
+
+    <Grid Margin="10">
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="20" Background="White">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,29,0,0" Width="Auto">
+
+                <!-- Title -->
+                <TextBlock Text="Shift Schedule Management" FontSize="24" FontWeight="Bold" Foreground="#333" Margin="0,0,0,20" TextAlignment="Center"/>
+
+                <!-- Date and Shift Filter -->
+                <StackPanel Orientation="Horizontal" Margin="0,10" HorizontalAlignment="Center">
+                    <TextBlock Text="Filter by Date:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <DatePicker Name="DateFilterPicker" SelectedDateChanged="DateFilterPicker_SelectedDateChanged" />
+                    <TextBlock Text="Filter by Shift:" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                    <ComboBox Name="ShiftFilterComboBox" SelectionChanged="ShiftFilterComboBox_SelectionChanged" Width="120">
+                        <ComboBoxItem Content="Morning" />
+                        <ComboBoxItem Content="Afternoon"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <!-- Shift Schedule DataGrid -->
+                <DataGrid Name="ShiftScheduleDataGrid" AutoGenerateColumns="False" Height="Auto"
+                          ItemsSource="{Binding ShiftSchedules}" Margin="0,10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Schedule ID" Binding="{Binding ScheduleID}" Width="Auto"/>
+                        <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="Auto"/>
+                        <DataGridTextColumn Header="Shift" Binding="{Binding Shift}" Width="Auto"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="Auto"/>
+
+                        <!-- Actions -->
+                        <DataGridTemplateColumn Header="Actions" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="Edit" Click="EditShiftSchedule_Click" Tag="{Binding}" Background="#007ACC" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                                        <Button Content="Delete" Click="DeleteShiftSchedule_Click" Tag="{Binding}" Margin="5,0,0,0" Background="#FF6347" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <!-- Buttons -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,0,0,0">
+                    <Button Content="Add Shift" Click="AddShift_Click" Width="180" Margin="5" Background="#007ACC" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                    <Button Content="Close" Click="Close_Click" Width="100" Margin="5" Background="#007ACC" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

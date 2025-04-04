@@ -11,7 +11,7 @@
             </StackPanel.Resources>
             <Button Content="Inventory Records Management" Click="InventoryRecordsManagement_Click" Width="200" Height="40"/>
             <Button Content="Waste Management" Click="WasteManagement_Click" Width="200" Height="40"/>
-            <Button Content="Reports and Analytics" Click="ReportsAndAnalytics_Click" Width="200" Height="40"/>
+            <Button Content="QC Checklist" Click="QCChecklist_Click" Width="200" Height="40"/>
         </StackPanel>
     </Grid>
 </Window>

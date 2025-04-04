@@ -24,7 +24,10 @@
                     <Image Source="/Resources/employeemanagement.png" Height="100" Width="100" HorizontalAlignment="Center"/>
                     <TextBlock Text="Employee Management" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="5"/>
                     <TextBlock Text="Manage employee records, shift schedules, and HR processes." TextAlignment="Center"/>
-                    <Button Content="Open Employee Management" Click="OpenEmployeeManagement_Click" Margin="5" Width="200"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Open Employee Management" Click="OpenEmployeeManagement_Click" Margin="5" Width="200"/>
+                        <Button Content="Shift Schedule" Click="OpenShiftSchedule_Click" Margin="5" Width="200"/>
+                    </StackPanel>
                 </StackPanel>
             </Border>
 

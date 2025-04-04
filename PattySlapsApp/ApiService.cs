@@ -218,5 +218,94 @@ namespace PattySlapsApp
         {
             return await _httpClient.DeleteAsync($"Applicants/{applicantId}");
         }
+        public async Task<List<QCChecklist>> GetQCChecklistsAsync()
+        {
+            var response = await _httpClient.GetAsync("QCChecklist");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<QCChecklist>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        public async Task<QCChecklist> GetQCChecklistByIdAsync(int checklistId)
+        {
+            var response = await _httpClient.GetAsync($"QCChecklist/{checklistId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<QCChecklist>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+        public async Task<HttpResponseMessage> AddQCChecklistAsync(QCChecklist checklist)
+        {
+            return await _httpClient.PostAsJsonAsync("QCChecklist", checklist);
+        }
+        public async Task<HttpResponseMessage> UpdateQCChecklistAsync(int checklistId, QCChecklist checklist)
+        {
+            return await _httpClient.PutAsJsonAsync($"QCChecklist/{checklistId}", checklist);
+        }
+        public async Task<HttpResponseMessage> DeleteQCChecklistAsync(int checklistId)
+        {
+            return await _httpClient.DeleteAsync($"QCChecklist/{checklistId}");
+        }
+        // Shift Schedule API methods
+        public async Task<List<ShiftSchedule>> GetShiftSchedulesAsync()
+        {
+            var response = await _httpClient.GetAsync("ShiftSchedule");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<ShiftSchedule>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<ShiftSchedule> GetShiftScheduleByIdAsync(int scheduleId)
+        {
+            var response = await _httpClient.GetAsync($"ShiftSchedule/{scheduleId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<ShiftSchedule>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddShiftScheduleAsync(ShiftSchedule shiftSchedule)
+        {
+            return await _httpClient.PostAsJsonAsync("ShiftSchedule", shiftSchedule);
+        }
+
+        public async Task<HttpResponseMessage> UpdateShiftScheduleAsync(int scheduleId, ShiftSchedule shiftSchedule)
+        {
+            return await _httpClient.PutAsJsonAsync($"ShiftSchedule/{scheduleId}", shiftSchedule);
+        }
+
+        public async Task<HttpResponseMessage> DeleteShiftScheduleAsync(int scheduleId)
+        {
+            return await _httpClient.DeleteAsync($"ShiftSchedule/{scheduleId}");
+        }
+
+        // Shift Schedule Employee API methods
+        public async Task<List<ShiftScheduleEmployee>> GetShiftScheduleEmployeesAsync()
+        {
+            var response = await _httpClient.GetAsync("ShiftScheduleEmployee");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<ShiftScheduleEmployee>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<ShiftScheduleEmployee> GetShiftScheduleEmployeeByIdAsync(int shiftScheduleEmployeeId)
+        {
+            var response = await _httpClient.GetAsync($"ShiftScheduleEmployee/{shiftScheduleEmployeeId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<ShiftScheduleEmployee>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddShiftScheduleEmployeeAsync(ShiftScheduleEmployee shiftScheduleEmployee)
+        {
+            return await _httpClient.PostAsJsonAsync("ShiftScheduleEmployee", shiftScheduleEmployee);
+        }
+
+        public async Task<HttpResponseMessage> UpdateShiftScheduleEmployeeAsync(int shiftScheduleEmployeeId, ShiftScheduleEmployee shiftScheduleEmployee)
+        {
+            return await _httpClient.PutAsJsonAsync($"ShiftScheduleEmployee/{shiftScheduleEmployeeId}", shiftScheduleEmployee);
+        }
+
+        public async Task<HttpResponseMessage> DeleteShiftScheduleEmployeeAsync(int shiftScheduleEmployeeId)
+        {
+            return await _httpClient.DeleteAsync($"ShiftScheduleEmployee/{shiftScheduleEmployeeId}");
+        }
     }
 }

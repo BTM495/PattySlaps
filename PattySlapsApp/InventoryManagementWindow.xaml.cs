@@ -19,9 +19,12 @@ namespace PattySlapsApp
     /// </summary>
     public partial class InventoryManagementWindow : Window
     {
+        private readonly ApiService _apiService;
+
         public InventoryManagementWindow()
         {
             InitializeComponent();
+            _apiService = new ApiService();
         }
 
         private void InventoryRecordsManagement_Click(object sender, RoutedEventArgs e)
@@ -36,9 +39,10 @@ namespace PattySlapsApp
             wasteManagementWindow.Show();
         }
 
-        private void ReportsAndAnalytics_Click(object sender, RoutedEventArgs e)
+        private void QCChecklist_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: Implement functionality for Reports and Analytics button click
+            QCChecklistWindow qcChecklistWindow = new QCChecklistWindow(_apiService);
+            qcChecklistWindow.Show();
         }
     }
 }

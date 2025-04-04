@@ -40,6 +40,7 @@ internal class Program
         builder.Services.AddScoped<Repository<WasteRecord>>();
         builder.Services.AddScoped<Repository<HireRequest>>();
         builder.Services.AddScoped<Repository<Applicant>>();
+        builder.Services.AddScoped<Repository<ReceptionQCChecklist>>();
 
         builder.Services.AddScoped(serviceType);
 
