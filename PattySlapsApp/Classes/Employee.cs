@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PattySlapsApp
+namespace PattySlapsApp.Classes
 {
     public class Employee
     {

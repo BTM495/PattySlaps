@@ -1,0 +1,36 @@
+﻿<Window x:Class="PattySlapsApp.AddHireRequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Hire Request" Height="400" Width="600" Background="#f0f0f0">
+    <Grid Margin="10">
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="20" Background="White">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,15">
+
+                <!-- Title -->
+                <TextBlock Text="Add Hire Request" FontSize="24" FontWeight="Bold" Foreground="#333" Margin="0,0,0,20" TextAlignment="Center"/>
+
+                <!-- Form Fields -->
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Width="400">
+
+                    <TextBlock Text="Position:" Margin="0,0,0,5"/>
+                    <TextBox Name="PositionTextBox" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Starting Date:" Margin="0,0,0,5"/>
+                    <DatePicker Name="StartingDatePicker" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Requesting Manager:" Margin="0,0,0,5"/>
+                    <TextBox Name="RequestingManagerTextBox" Margin="0,0,0,10"/>
+                </StackPanel>
+
+                <!-- Buttons -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,0,0,0">
+                    <Button Content="Save" Click="SaveButton_Click" Width="100" Margin="5" Background="#007ACC" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                    <Button Content="Cancel" Click="CancelButton_Click" Width="100" Margin="5" Background="#007ACC" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
+
+

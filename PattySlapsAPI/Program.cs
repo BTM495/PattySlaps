@@ -37,7 +37,9 @@ internal class Program
 
         builder.Services.AddScoped<Repository<InventoryRecord>>();
         builder.Services.AddScoped<Repository<Item>>();
-        builder.Services.AddScoped<Repository<WasteRecord>>(); // Register Repository<WasteRecord>
+        builder.Services.AddScoped<Repository<WasteRecord>>();
+        builder.Services.AddScoped<Repository<HireRequest>>();
+        builder.Services.AddScoped<Repository<Applicant>>();
 
         builder.Services.AddScoped(serviceType);
 

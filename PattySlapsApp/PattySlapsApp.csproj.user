@@ -5,19 +5,37 @@
     <Compile Update="AddEmployeeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddHireRequestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddInventoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddWasteWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ApplicationManagementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AppInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditApplicationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditEmployeeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditHireRequestWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="EditInventoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="EditWasteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HireRequestsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="InventoryManagementWindow.xaml.cs">
@@ -27,9 +45,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MainWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="QCChecklistWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WasteManagementWindow.xaml.cs">

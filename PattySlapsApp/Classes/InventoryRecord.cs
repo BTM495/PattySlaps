@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PattySlapsApp
+namespace PattySlapsApp.Classes
 {
     public class InventoryRecord : INotifyPropertyChanged
     {

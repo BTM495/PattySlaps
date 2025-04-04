@@ -122,7 +122,7 @@ namespace PattySlaps
         public string Experience { get; set; }
         public string Availability { get; set; }
         public string HourPreferences { get; set; }
-        public List<Application> Applications { get; set; } = new List<Application>();
+        public string Resume { get; set; }
     }
 
     // Application class

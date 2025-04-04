@@ -121,5 +121,15 @@ C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-window
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
-C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\QCChecklistWindow.baml
-C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\QCChecklistWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\HireRequestsWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\HireRequestsWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddHireRequestWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AddHireRequestWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditHireRequestWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditHireRequestWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\ApplicationManagementWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\ApplicationManagementWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditApplicationWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\EditApplicationWindow.g.cs
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AppInfoWindow.baml
+C:\Users\aboug\Documents\GitHub\PattySlaps\PattySlapsApp\obj\Debug\net8.0-windows\AppInfoWindow.g.cs

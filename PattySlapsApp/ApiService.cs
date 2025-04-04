@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PattySlapsApp.Classes;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -53,6 +54,7 @@ namespace PattySlapsApp
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<List<InventoryRecord>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         }
+
         public async Task<InventoryRecord> GetInventoryRecordByIdAsync(int inventoryRecordID)
         {
             var response = await _httpClient.GetAsync($"Inventory/{inventoryRecordID}");
@@ -123,6 +125,98 @@ namespace PattySlapsApp
             return await _httpClient.DeleteAsync($"Waste/{id}");
         }
 
+        // Hire Request API methods
+        public async Task<List<HireRequest>> GetHireRequestsAsync()
+        {
+            var response = await _httpClient.GetAsync("HireRequests");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<HireRequest>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
 
+        public async Task<HireRequest> GetHireRequestByIdAsync(int requestId)
+        {
+            var response = await _httpClient.GetAsync($"HireRequests/{requestId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<HireRequest>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddHireRequestAsync(HireRequest request)
+        {
+            return await _httpClient.PostAsJsonAsync("HireRequests", request);
+        }
+
+        public async Task<HttpResponseMessage> UpdateHireRequestAsync(int requestId, HireRequest request)
+        {
+            return await _httpClient.PutAsJsonAsync($"HireRequests/{requestId}", request);
+        }
+
+        public async Task<HttpResponseMessage> DeleteHireRequestAsync(int requestId)
+        {
+            return await _httpClient.DeleteAsync($"HireRequests/{requestId}");
+        }
+
+        // Application API methods
+        public async Task<List<Classes.Application>> GetApplicationsAsync()
+        {
+            var response = await _httpClient.GetAsync("Application");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<Classes.Application>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<Classes.Application> GetApplicationByIdAsync(int applicationId)
+        {
+            var response = await _httpClient.GetAsync($"Application/{applicationId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<Classes.Application>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddApplicationAsync(Classes.Application application)
+        {
+            return await _httpClient.PostAsJsonAsync("Application", application);
+        }
+
+        public async Task<HttpResponseMessage> UpdateApplicationAsync(int applicationId, Classes.Application application)
+        {
+            return await _httpClient.PutAsJsonAsync($"Application/{applicationId}", application);
+        }
+
+        public async Task<HttpResponseMessage> DeleteApplicationAsync(int applicationId)
+        {
+            return await _httpClient.DeleteAsync($"Application/{applicationId}");
+        }
+        public async Task<List<Applicant>> GetApplicantsAsync()
+        {
+            var response = await _httpClient.GetAsync("Applicants");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<Applicant>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<Applicant> GetApplicantByIdAsync(int applicantId)
+        {
+            var response = await _httpClient.GetAsync($"Applicants/{applicantId}");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<Applicant>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<HttpResponseMessage> AddApplicantAsync(Applicant applicant)
+        {
+            return await _httpClient.PostAsJsonAsync("Applicants", applicant);
+        }
+
+        public async Task<HttpResponseMessage> UpdateApplicantAsync(int applicantId, Applicant applicant)
+        {
+            return await _httpClient.PutAsJsonAsync($"Applicants/{applicantId}", applicant);
+        }
+
+        public async Task<HttpResponseMessage> DeleteApplicantAsync(int applicantId)
+        {
+            return await _httpClient.DeleteAsync($"Applicants/{applicantId}");
+        }
     }
 }

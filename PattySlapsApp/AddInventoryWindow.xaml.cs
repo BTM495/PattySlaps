@@ -53,7 +53,7 @@ namespace PattySlapsApp
                 return;
             }
 
-            var newInventoryRecord = new InventoryRecord
+            var newInventoryRecord = new Classes.InventoryRecord
             {
                 ItemID = selectedItemId,
                 Date = DateTime.Now,

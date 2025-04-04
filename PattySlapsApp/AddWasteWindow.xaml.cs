@@ -60,7 +60,7 @@ namespace PattySlapsApp
                 return;
             }
 
-            var newWasteRecord = new WasteRecord
+            var newWasteRecord = new Classes.WasteRecord
             {
                 ItemID = selectedItemId,
                 Date = DateTime.Now,

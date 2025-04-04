@@ -22,10 +22,16 @@ namespace PattySlapsApp
         }
 
         private void OpenRecruitmentManagement_Click(object sender, RoutedEventArgs e)
-        { /*
-            RecruitmentManagementWindow recruitmentWindow = new RecruitmentManagementWindow();
+        { 
+            HireRequestsWindow recruitmentWindow = new HireRequestsWindow();
             recruitmentWindow.Show();
-        */
+        
         }
-}
+        private void OpenApplicationManagement_Click(object sender, RoutedEventArgs e)
+        {
+            ApplicationManagementWindow recruitmentWindow = new ApplicationManagementWindow();
+            recruitmentWindow.Show();
+
+        }
+    }
 }

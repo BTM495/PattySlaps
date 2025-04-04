@@ -44,7 +44,10 @@
                     <Image Source="/Resources/recruitment management.jpg" Height="50" Width="50" HorizontalAlignment="Center"/>
                     <TextBlock Text="Recruitment Management" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="5"/>
                     <TextBlock Text="Handle job applications, hiring, and employee onboarding." TextAlignment="Center"/>
-                    <Button Content="Open Recruitment Management" Click="OpenRecruitmentManagement_Click" Margin="5" Width="200"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button Content="Hire Requests Management" Click="OpenRecruitmentManagement_Click" Margin="5" Width="200"/>
+                        <Button Content="Application Management" Click="OpenApplicationManagement_Click" Margin="5" Width="200"/>
+                    </StackPanel>
                 </StackPanel>
             </Border>
 
