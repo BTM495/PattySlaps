@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const form = document.querySelector(".application-form");
+            form.addEventListener("submit", (event) => {
+                event.preventDefault(); // Prevent the default form submission
+                alert("Thank you for submitting your application!"); // Display a thank-you message
+                window.location.href = "index.html"; // Redirect to the index page
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo-small.png" alt="Company Logo">
+        </div>
+        <h1>Career Application</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Apply for Your Desired Position!</h2>
+            <form action="#" method="post" class="application-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="education">Education Level:</label>
+                <select id="education" name="education" required>
+                    <option value="" disabled selected>Select your education level</option>
+                    <option value="highschool">High School Diploma</option>
+                    <option value="associate">Associate's Degree</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="doctorate">Doctorate</option>
+                </select>
+
+                <label for="experience">Experience:</label>
+                <textarea id="experience" name="experience" rows="4" placeholder="Describe your relevant experience..." required></textarea>
+
+                <label for="availability">Availability:</label>
+                <select id="availability" name="availability" required>
+                    <option value="" disabled selected>Select your availability</option>
+                    <option value="fulltime">Full-Time</option>
+                    <option value="parttime">Part-Time</option>
+                    <option value="weekends">Weekends Only</option>
+                    <option value="flexible">Flexible</option>
+                </select>
+
+                <label for="hours">Preferred Hours:</label>
+                <input type="text" id="hours" name="hours" placeholder="e.g., 9 AM - 5 PM" required>
+
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Job Portal</p>
+    </footer>
+</body>
+</html>
