@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    position: relative; /* Allows positioning of the cart button */
+    background-color: rgb(231, 29, 41);
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+header .cart-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+header .cart-button:hover {
+    background-color: #d3d3d3;
+}
+
+main {
+    padding: 40px 20px 60px; /* Add extra padding to the bottom to create space above the footer */
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+    align-content: start; /* Align items at the top of the grid */
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space out content */
+    aspect-ratio: 1 / 1; /* Makes the box a square */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.item p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.item button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button horizontally */
+}
+
+.item button:hover {
+    background-color: #777777;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; /* Increase padding for better spacing */
+    background-color: #333;
+    color: #fff;
+    margin-top: 250px; /* Add more margin to separate it from the content above */
+}
